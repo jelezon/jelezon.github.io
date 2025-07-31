@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.Playtime.FantasyTree",
+    "sha256_cert_fingerprints": [
+      "1B:B6:95:43:0C:4B:BE:57:0B:2F:73:A9:4F:42:54:B1:92:B5:78:46:53:3C:A4:47:C5:06:17:1B:50:D2:03:07"
+    ]
+  }
+}]

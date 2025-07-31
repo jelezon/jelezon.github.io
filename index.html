@@ -2,10 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fantasy Tree App Links new</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy Tree App Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      margin: 20px 0;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+  </style>
 </head>
 <body>
-  <h1>Fantasy Tree App Links Hosting</h1>
-  <p>This site hosts the <code>assetlinks.json</code> file for Android App Links verification.</p>
+  <h1>Fantasy Tree App Links</h1>
+  <p>This page helps you test Deep Links for the Fantasy Tree Android app.</p>
+  
+  <a href="https://jelezon.github.io/path" class="btn">Open in Fantasy Tree App</a>
+  
+  <p>If the app doesn't open, make sure:</p>
+  <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+    <li>The app is installed on your device</li>
+    <li>Your domain is properly verified with <code>assetlinks.json</code></li>
+    <li>You're clicking the link (not typing the URL manually)</li>
+  </ul>
+  
+  <h2>Technical Details</h2>
+  <p>The <code>assetlinks.json</code> file is hosted at:</p>
+  <p><code>https://jelezon.github.io/.well-known/assetlinks.json</code></p>
 </body>
 </html>
